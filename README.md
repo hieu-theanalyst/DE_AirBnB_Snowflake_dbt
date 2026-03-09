@@ -65,7 +65,7 @@ AWS_DBT_Snowflake/
 ├── pyproject.toml                      # Python dependencies
 ├── main.py                             # Main execution script
 │
-├── SourceData/                         # Raw CSV data files
+├── Data/                               # Raw CSV data files
 │   ├── bookings.csv
 │   ├── hosts.csv
 │   └── listings.csv
