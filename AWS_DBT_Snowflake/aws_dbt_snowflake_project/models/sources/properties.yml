@@ -1,0 +1,8 @@
+version: 2
+models:
+  - name: bronze_bookings
+    description: "Raw bookings data"
+  - name: bronze_hosts
+    description: "Raw hosts data"
+  - name: bronze_listings
+    description: "Raw listings data"

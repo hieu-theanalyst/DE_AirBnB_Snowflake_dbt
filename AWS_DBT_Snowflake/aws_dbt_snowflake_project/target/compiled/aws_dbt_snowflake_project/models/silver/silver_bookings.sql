@@ -1,0 +1,15 @@
+
+
+
+SELECT 
+    BOOKING_ID,
+    LISTING_ID,
+    BOOKING_DATE,
+    
+    round(NIGHTS_BOOKED * BOOKING_AMOUNT, 2)
+ as TOTAL_AMOUNT,
+    SERVICE_FEE,
+    CLEANING_FEE,
+    BOOKING_STATUS,
+    CREATED_AT
+FROM AIRBNB.bronze.bronze_bookings

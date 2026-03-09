@@ -1,0 +1,1 @@
+SELECT * FROM AIRBNB.bronze.bronze_bookings
